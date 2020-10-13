@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/vaca-abdução.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <title>The Sheep</title>
+    
+    <style>
+        canvas {
+            border: 2px solid black;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            background-image: url('imgs/fundo.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            cursor: grab;
+            image-rendering: pixelated; 
+        }
+
+        body {
+            background-image: url('imgs/background.jpg') ;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        p {
+            font-size: 30px;
+            text-align: center;
+            color: rgba(255, 147, 113, 0.7);
+            font-family: 'Bangers', cursive;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <p>Abduzindo a Ovelhinha</p>
+    <canvas id="jogo" width="800" height="600"></canvas>
+
+    <script src="jogo.js"></script>
+</body>
+</html>
